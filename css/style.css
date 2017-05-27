@@ -1,0 +1,47 @@
+#kwadrat {
+	background-color: red;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+   margin-left: auto;
+	margin-right: auto;
+	  
+	transition: width 5s linear 0.5s;
+}
+#kwadrat:hover {
+    height: 150px;
+    width: 300px;
+       
+}
+#kwadrat1 {
+	background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+   margin-left: auto;
+	margin-right: auto;
+	  
+	transition: height 5s linear 0.5s;
+}
+#kwadrat1:hover {
+    height: 300px;
+    width: 150px;
+       
+    
+    
+}
+#kwadrat2 {
+	background-color: green;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+   margin-left: auto;
+	margin-right: auto;
+	  
+	transition: width 5s linear 0.5s, height 5s linear 0.5s;
+}
+
+#kwadrat2:hover {
+    height: 300px;
+    width: 300px;
+       
